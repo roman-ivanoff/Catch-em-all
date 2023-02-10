@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD0892AC297AD9DE00182803 /* Catch’em all.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch’em all.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0892AC297AD9DE00182803 /* Catch_em_all.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catch_em_all.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0892AF297AD9DE00182803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0892B3297AD9DE00182803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD0892B8297AD9E000182803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		FD0892A3297AD9DE00182803 = {
 			isa = PBXGroup;
 			children = (
-				FD0892AE297AD9DE00182803 /* Catch’em all */,
+				FD0892AE297AD9DE00182803 /* Catch_em_all */,
 				FD0892AD297AD9DE00182803 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		FD0892AD297AD9DE00182803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD0892AC297AD9DE00182803 /* Catch’em all.app */,
+				FD0892AC297AD9DE00182803 /* Catch_em_all.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD0892AE297AD9DE00182803 /* Catch’em all */ = {
+		FD0892AE297AD9DE00182803 /* Catch_em_all */ = {
 			isa = PBXGroup;
 			children = (
 				FDCE12CA298C21D900CA88F6 /* Models */,
@@ -61,7 +61,7 @@
 				FD9CD1E6298B032C0088764E /* Resources */,
 				FD9CD1E5298B03020088764E /* Controllers */,
 			);
-			path = "Catch’em all";
+			path = Catch_em_all;
 			sourceTree = "<group>";
 		};
 		FD9CD1E5298B03020088764E /* Controllers */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD0892AB297AD9DE00182803 /* Catch’em all */ = {
+		FD0892AB297AD9DE00182803 /* Catch_em_all */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0892C0297AD9E000182803 /* Build configuration list for PBXNativeTarget "Catch’em all" */;
+			buildConfigurationList = FD0892C0297AD9E000182803 /* Build configuration list for PBXNativeTarget "Catch_em_all" */;
 			buildPhases = (
 				FD0892A8297AD9DE00182803 /* Sources */,
 				FD0892A9297AD9DE00182803 /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "Catch’em all";
+			name = Catch_em_all;
 			productName = "Catch’em all";
-			productReference = FD0892AC297AD9DE00182803 /* Catch’em all.app */;
+			productReference = FD0892AC297AD9DE00182803 /* Catch_em_all.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD0892A7297AD9DE00182803 /* Build configuration list for PBXProject "Catch’em all" */;
+			buildConfigurationList = FD0892A7297AD9DE00182803 /* Build configuration list for PBXProject "Catch_em_all" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD0892AB297AD9DE00182803 /* Catch’em all */,
+				FD0892AB297AD9DE00182803 /* Catch_em_all */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Catch’em all/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Catch_em_all/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -362,7 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Catch’em all/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Catch_em_all/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD0892A7297AD9DE00182803 /* Build configuration list for PBXProject "Catch’em all" */ = {
+		FD0892A7297AD9DE00182803 /* Build configuration list for PBXProject "Catch_em_all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0892BE297AD9E000182803 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0892C0297AD9E000182803 /* Build configuration list for PBXNativeTarget "Catch’em all" */ = {
+		FD0892C0297AD9E000182803 /* Build configuration list for PBXNativeTarget "Catch_em_all" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0892C1297AD9E000182803 /* Debug */,
