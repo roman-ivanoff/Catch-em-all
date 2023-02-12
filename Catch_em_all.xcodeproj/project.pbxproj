@@ -14,6 +14,7 @@
 		FD0892BC297AD9E000182803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0892BA297AD9E000182803 /* LaunchScreen.storyboard */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
+		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD0892BD297AD9E000182803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
+		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				E4E682A8709019E349572F4C /* Pods-Catch_em_all.debug.xcconfig */,
 				073FA098E3E300C6DD26E79F /* Pods-Catch_em_all.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +121,7 @@
 			children = (
 				FDCE12CB298C21E700CA88F6 /* Poke.swift */,
 				FDCE12CE298C220400CA88F6 /* PokeList.swift */,
+				FDEBC702299981E500DB49CA /* Species.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +262,7 @@
 				FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */,
 				FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */,
 				FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */,
+				FDEBC703299981E500DB49CA /* Species.swift in Sources */,
 				FD0892B0297AD9DE00182803 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
