@@ -12,6 +12,7 @@
 		FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0892B3297AD9DE00182803 /* ViewController.swift */; };
 		FD0892B9297AD9E000182803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0892B8297AD9E000182803 /* Assets.xcassets */; };
 		FD0892BC297AD9E000182803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0892BA297AD9E000182803 /* LaunchScreen.storyboard */; };
+		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
 		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
@@ -27,6 +28,7 @@
 		FD0892B8297AD9E000182803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0892BB297AD9E000182803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0892BD297AD9E000182803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
 		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				FDCE12CB298C21E700CA88F6 /* Poke.swift */,
 				FDCE12CE298C220400CA88F6 /* PokeList.swift */,
 				FDEBC702299981E500DB49CA /* Species.swift */,
+				FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */,
 				FDEBC703299981E500DB49CA /* Species.swift in Sources */,
 				FD0892B0297AD9DE00182803 /* AppDelegate.swift in Sources */,
+				FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
