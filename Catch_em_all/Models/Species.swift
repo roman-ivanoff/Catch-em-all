@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Species: Decodable {
+struct Species: Decodable, Equatable {
     let name: String
     let url: String
 }

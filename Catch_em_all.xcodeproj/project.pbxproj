@@ -12,6 +12,7 @@
 		FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0892B3297AD9DE00182803 /* ViewController.swift */; };
 		FD0892B9297AD9E000182803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0892B8297AD9E000182803 /* Assets.xcassets */; };
 		FD0892BC297AD9E000182803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0892BA297AD9E000182803 /* LaunchScreen.storyboard */; };
+		FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17FB8E299E1FEF00F74B13 /* VersionGroupDetail.swift */; };
 		FD57A92A299CFCEF00ACF376 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57A929299CFCEF00ACF376 /* Other.swift */; };
 		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
@@ -29,6 +30,7 @@
 		FD0892B8297AD9E000182803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0892BB297AD9E000182803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0892BD297AD9E000182803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD17FB8E299E1FEF00F74B13 /* VersionGroupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionGroupDetail.swift; sourceTree = "<group>"; };
 		FD57A929299CFCEF00ACF376 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				FDEBC702299981E500DB49CA /* Species.swift */,
 				FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */,
 				FD57A929299CFCEF00ACF376 /* Other.swift */,
+				FD17FB8E299E1FEF00F74B13 /* VersionGroupDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */,
+				FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */,
 				FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */,
 				FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */,
 				FDEBC703299981E500DB49CA /* Species.swift in Sources */,

@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct OfficialArtwork: Decodable {
+struct OfficialArtwork: Decodable, Equatable {
     let frontDefault: String
 }
