@@ -16,6 +16,7 @@
 		FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17FB8E299E1FEF00F74B13 /* VersionGroupDetail.swift */; };
 		FD31C69629AA5E6100C8F667 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD31C69529AA5E6100C8F667 /* Move.swift */; };
 		FD57A92A299CFCEF00ACF376 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD57A929299CFCEF00ACF376 /* Other.swift */; };
+		FD6C3B1D29B61B0800CE1CF9 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */; };
 		FD6DFE7929B20B680047BB63 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DFE7829B20B680047BB63 /* Ability.swift */; };
 		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
@@ -37,6 +38,7 @@
 		FD17FB8E299E1FEF00F74B13 /* VersionGroupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionGroupDetail.swift; sourceTree = "<group>"; };
 		FD31C69529AA5E6100C8F667 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		FD57A929299CFCEF00ACF376 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 		FD6DFE7829B20B680047BB63 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				FD31C69529AA5E6100C8F667 /* Move.swift */,
 				FD02B15329AF8D550079241C /* Stat.swift */,
 				FD6DFE7829B20B680047BB63 /* Ability.swift */,
+				FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				FDEBC703299981E500DB49CA /* Species.swift in Sources */,
 				FD0892B0297AD9DE00182803 /* AppDelegate.swift in Sources */,
 				FD57A92A299CFCEF00ACF376 /* Other.swift in Sources */,
+				FD6C3B1D29B61B0800CE1CF9 /* Chain.swift in Sources */,
 				FD6DFE7929B20B680047BB63 /* Ability.swift in Sources */,
 				FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */,
 			);
