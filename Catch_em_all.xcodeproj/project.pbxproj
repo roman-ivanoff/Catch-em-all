@@ -19,6 +19,7 @@
 		FD6C3B1D29B61B0800CE1CF9 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */; };
 		FD6DFE7929B20B680047BB63 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DFE7829B20B680047BB63 /* Ability.swift */; };
 		FDB5351229B7D19800FCE612 /* PokeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5351129B7D19800FCE612 /* PokeInfo.swift */; };
+		FDB5351429B7D1BF00FCE612 /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5351329B7D1BF00FCE612 /* Sprites.swift */; };
 		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
@@ -42,6 +43,7 @@
 		FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 		FD6DFE7829B20B680047BB63 /* Ability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
 		FDB5351129B7D19800FCE612 /* PokeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeInfo.swift; sourceTree = "<group>"; };
+		FDB5351329B7D1BF00FCE612 /* Sprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
 		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				FD6DFE7829B20B680047BB63 /* Ability.swift */,
 				FD6C3B1C29B61B0800CE1CF9 /* Chain.swift */,
 				FDB5351129B7D19800FCE612 /* PokeInfo.swift */,
+				FDB5351329B7D1BF00FCE612 /* Sprites.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */,
 				FDB5351229B7D19800FCE612 /* PokeInfo.swift in Sources */,
+				FDB5351429B7D1BF00FCE612 /* Sprites.swift in Sources */,
 				FD31C69629AA5E6100C8F667 /* Move.swift in Sources */,
 				FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */,
 				FD02B15429AF8D550079241C /* Stat.swift in Sources */,
