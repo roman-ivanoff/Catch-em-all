@@ -25,6 +25,7 @@
 		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
+		FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */; };
 		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
+		FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applyable.swift; sourceTree = "<group>"; };
 		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		FD0892AE297AD9DE00182803 /* Catch_em_all */ = {
 			isa = PBXGroup;
 			children = (
+				FDE74DDD29B8A1B000ECB6EB /* Protocols */,
 				FDCE12CA298C21D900CA88F6 /* Models */,
 				FD9CD1E7298B03330088764E /* Supporting Files */,
 				FD9CD1E6298B032C0088764E /* Resources */,
@@ -157,6 +160,14 @@
 				FDB5351729B7D22A00FCE612 /* PokeTestCell.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FDE74DDD29B8A1B000ECB6EB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				FD31C69629AA5E6100C8F667 /* Move.swift in Sources */,
 				FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */,
 				FD02B15429AF8D550079241C /* Stat.swift in Sources */,
+				FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */,
 				FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */,
 				FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */,
 				FDEBC703299981E500DB49CA /* Species.swift in Sources */,
