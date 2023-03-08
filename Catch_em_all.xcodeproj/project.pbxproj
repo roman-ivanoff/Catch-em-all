@@ -29,6 +29,7 @@
 		FDE74DE129B8A34200ECB6EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE029B8A34200ECB6EB /* Localizable.strings */; };
 		FDE74DE629B8A3E600ECB6EB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */; };
 		FDE74DE729B8A3E600ECB6EB /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE529B8A3E600ECB6EB /* Lato-Regular.ttf */; };
+		FDE74DEB29B8A93100ECB6EB /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */; };
 		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		FDE74DE029B8A34200ECB6EB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		FDE74DE529B8A3E600ECB6EB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		FD0892AE297AD9DE00182803 /* Catch_em_all */ = {
 			isa = PBXGroup;
 			children = (
+				FDE74DE829B8A91000ECB6EB /* Services */,
 				FDE74DDD29B8A1B000ECB6EB /* Protocols */,
 				FDCE12CA298C21D900CA88F6 /* Models */,
 				FD9CD1E7298B03330088764E /* Supporting Files */,
@@ -185,6 +188,22 @@
 				FDE74DE529B8A3E600ECB6EB /* Lato-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FDE74DE829B8A91000ECB6EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FDE74DE929B8A91F00ECB6EB /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDE74DE929B8A91F00ECB6EB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +348,7 @@
 				FDB5351629B7D21400FCE612 /* Evolution.swift in Sources */,
 				FD31C69629AA5E6100C8F667 /* Move.swift in Sources */,
 				FD17FB8F299E1FEF00F74B13 /* VersionGroupDetail.swift in Sources */,
+				FDE74DEB29B8A93100ECB6EB /* ServiceError.swift in Sources */,
 				FD02B15429AF8D550079241C /* Stat.swift in Sources */,
 				FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */,
 				FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */,
