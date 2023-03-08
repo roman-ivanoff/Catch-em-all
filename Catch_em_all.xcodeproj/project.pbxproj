@@ -30,6 +30,7 @@
 		FDE74DE629B8A3E600ECB6EB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */; };
 		FDE74DE729B8A3E600ECB6EB /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE529B8A3E600ECB6EB /* Lato-Regular.ttf */; };
 		FDE74DEB29B8A93100ECB6EB /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */; };
+		FDE74DED29B8A95B00ECB6EB /* PokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DEC29B8A95B00ECB6EB /* PokeService.swift */; };
 		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		FDE74DE529B8A3E600ECB6EB /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		FDE74DEC29B8A95B00ECB6EB /* PokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeService.swift; sourceTree = "<group>"; };
 		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				FDE74DEA29B8A93100ECB6EB /* ServiceError.swift */,
+				FDE74DEC29B8A95B00ECB6EB /* PokeService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE74DED29B8A95B00ECB6EB /* PokeService.swift in Sources */,
 				FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */,
 				FDB5351229B7D19800FCE612 /* PokeInfo.swift in Sources */,
 				FDB5351429B7D1BF00FCE612 /* Sprites.swift in Sources */,
