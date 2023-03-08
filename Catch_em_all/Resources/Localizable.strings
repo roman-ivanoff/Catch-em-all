@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Catch_em_all
+
+  Created by Roman Ivanov on 08.03.2023.
+  
+*/
+
+"url_is_invalid" = "The endpoint URL is invalid";
+"invalid_response_status" = "The APIO failed to issue a valid response.";
+"corrupt_data" = "The data provided appears to be corrupt";
+"know_them_all" = "Know Them All";

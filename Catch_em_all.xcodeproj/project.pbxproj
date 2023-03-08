@@ -26,6 +26,7 @@
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
 		FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */; };
+		FDE74DE129B8A34200ECB6EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE029B8A34200ECB6EB /* Localizable.strings */; };
 		FDEBC703299981E500DB49CA /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBC702299981E500DB49CA /* Species.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
 		FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applyable.swift; sourceTree = "<group>"; };
+		FDE74DE029B8A34200ECB6EB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDEBC702299981E500DB49CA /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				FD0892B8297AD9E000182803 /* Assets.xcassets */,
+				FDE74DE029B8A34200ECB6EB /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0892BC297AD9E000182803 /* LaunchScreen.storyboard in Resources */,
+				FDE74DE129B8A34200ECB6EB /* Localizable.strings in Resources */,
 				FD0892B9297AD9E000182803 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
