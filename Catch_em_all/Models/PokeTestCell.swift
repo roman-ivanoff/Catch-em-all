@@ -9,6 +9,6 @@ import Foundation
 
 struct PokeTestCell {
     let pokeName: String
-//    let pokeImage: UIImage
+    let pokeImageUrl: String?
     let pokeSkill: String
 }

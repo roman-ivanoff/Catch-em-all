@@ -11,5 +11,5 @@ struct PokeList: Decodable {
     let count: Int
     let next: String?
     let previous: String?
-    let pokemons: [Poke]
+    let results: [Poke]
 }
