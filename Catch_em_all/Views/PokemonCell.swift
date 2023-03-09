@@ -8,7 +8,7 @@
 import Foundation
 import Kingfisher
 
-class PokemonCell: UICollectionViewCell {
+class PokemonCell: UICollectionViewCell, SMIdentifiable {
 
     let nameLabel = UILabel().apply {
         $0.font = UIFont(name: "Lato-Bold", size: 13.0)
