@@ -30,7 +30,6 @@
 		FDC857A0299AA157000C2DF7 /* OfficialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */; };
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
-		FDD06EC329C0E9E200092E22 /* UICollectionView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */; };
 		FDD06EC529C0EA0300092E22 /* UIView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */; };
 		FDD06EC729C0EA4900092E22 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD06EC629C0EA4900092E22 /* DetailViewController.swift */; };
 		FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */; };
@@ -70,7 +69,6 @@
 		FDC8579F299AA157000C2DF7 /* OfficialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialArtwork.swift; sourceTree = "<group>"; };
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
-		FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Configuration.swift"; sourceTree = "<group>"; };
 		FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Configuration.swift"; sourceTree = "<group>"; };
 		FDD06EC629C0EA4900092E22 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applyable.swift; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 		FDD06EC129C0E9CD00092E22 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */,
 				FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */,
 			);
 			path = Extensions;
@@ -407,7 +404,6 @@
 				FDE74DEB29B8A93100ECB6EB /* ServiceError.swift in Sources */,
 				FD02B15429AF8D550079241C /* Stat.swift in Sources */,
 				FD6F74B029BA057C00C2BED2 /* PokeViewModel.swift in Sources */,
-				FDD06EC329C0E9E200092E22 /* UICollectionView+Configuration.swift in Sources */,
 				FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */,
 				FD6F74B529BA061500C2BED2 /* PokemonListCollectionView.swift in Sources */,
 				FD0892B4297AD9DE00182803 /* ViewController.swift in Sources */,

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Hero
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         let rootViewController = ViewController()
         let navController = UINavigationController(rootViewController: rootViewController)
+        navController.isHeroEnabled = true
         window.rootViewController = navController
         window.makeKeyAndVisible()
         self.window = window
