@@ -31,6 +31,7 @@
 		FDCE12CC298C21E800CA88F6 /* Poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CB298C21E700CA88F6 /* Poke.swift */; };
 		FDCE12CF298C220400CA88F6 /* PokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE12CE298C220400CA88F6 /* PokeList.swift */; };
 		FDD06EC329C0E9E200092E22 /* UICollectionView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */; };
+		FDD06EC529C0EA0300092E22 /* UIView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */; };
 		FDE74DDF29B8A1BE00ECB6EB /* Applyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */; };
 		FDE74DE129B8A34200ECB6EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE029B8A34200ECB6EB /* Localizable.strings */; };
 		FDE74DE629B8A3E600ECB6EB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */; };
@@ -69,6 +70,7 @@
 		FDCE12CB298C21E700CA88F6 /* Poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke.swift; sourceTree = "<group>"; };
 		FDCE12CE298C220400CA88F6 /* PokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeList.swift; sourceTree = "<group>"; };
 		FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Configuration.swift"; sourceTree = "<group>"; };
+		FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Configuration.swift"; sourceTree = "<group>"; };
 		FDE74DDE29B8A1BE00ECB6EB /* Applyable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applyable.swift; sourceTree = "<group>"; };
 		FDE74DE029B8A34200ECB6EB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FDE74DE429B8A3E500ECB6EB /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				FDD06EC229C0E9E200092E22 /* UICollectionView+Configuration.swift */,
+				FDD06EC429C0EA0300092E22 /* UIView+Configuration.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				FD6F74B929BA06A100C2BED2 /* ContentView.swift in Sources */,
 				FDB5351229B7D19800FCE612 /* PokeInfo.swift in Sources */,
 				FDB5351429B7D1BF00FCE612 /* Sprites.swift in Sources */,
+				FDD06EC529C0EA0300092E22 /* UIView+Configuration.swift in Sources */,
 				FDB5351629B7D21400FCE612 /* Evolution.swift in Sources */,
 				FD6F74B329BA05E800C2BED2 /* PokemonCell.swift in Sources */,
 				FD31C69629AA5E6100C8F667 /* Move.swift in Sources */,
