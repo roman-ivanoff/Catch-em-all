@@ -9,5 +9,6 @@ target 'Catch_em_all' do
 	pod 'RxSwift', '6.5.0'
     	pod 'RxCocoa', '6.5.0'
 	pod 'Kingfisher', '~> 7.0'
-
+        pod 'Hero'
+        pod 'Swift_PageMenu', '~> 1.4'
 end

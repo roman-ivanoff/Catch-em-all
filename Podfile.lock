@@ -1,4 +1,5 @@
 PODS:
+  - Hero (1.6.2)
   - Kingfisher (7.4.1)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
@@ -6,25 +7,32 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - Swift_PageMenu (1.4.2)
 
 DEPENDENCIES:
+  - Hero
   - Kingfisher (~> 7.0)
   - RxCocoa (= 6.5.0)
   - RxSwift (= 6.5.0)
+  - Swift_PageMenu (~> 1.4)
 
 SPEC REPOS:
   trunk:
+    - Hero
     - Kingfisher
     - RxCocoa
     - RxRelay
     - RxSwift
+    - Swift_PageMenu
 
 SPEC CHECKSUMS:
+  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
   Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  Swift_PageMenu: 6cc3e92540729606bd66c9b35a0886ed6c8ed899
 
-PODFILE CHECKSUM: 3acac5f54cb6fa8b457cddf03bd10bb229a29e9a
+PODFILE CHECKSUM: 50f3dec0dc4e896b1bb9a4df9f5f42a9c1578f5f
 
 COCOAPODS: 1.11.3
